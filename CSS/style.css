@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button{
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 90px;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav button:hover{
+    background-color: white;
+    border: 1px solid red;
+    color: red;
+    transition-duration: 0.6s;
+}
+
+header{
+    background-image: linear-gradient(215deg, rgba(255, 255, 255, 0.8), white);
+    padding-bottom: 1%;
+    position: fixed;
+    width: 100vw;
+    box-shadow: 2px 0px 10px rgba(128, 128, 128, 0.279);
+}
+
+
+.logo{
+    position: relative;
+    left: 20px;
+    width: 80px;
+    height: 40px;
+    float: left;
+}
+
+nav{
+    text-align: right;
+    font-size: 20px; 
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+#home{
+    color: red;
+}
+
+
+nav li{
+    padding: 8px;
+    color: rgb(81, 81, 81);
+    list-style: none;
+    display: inline;
+}
+
+.banner{
+    margin-top: 80px;
+    width: 99vw;
+    margin-bottom: 50px;
+}
+
+
+
+.section-1{
+    height: 230px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+#uno{
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-top: 25px;
+}
+
+#uno .title{
+    font-size: 35px;
+    color: rgb(100, 100, 100);
+    margin-bottom: 10px;
+}
+
+#uno p{
+    color: rgb(78, 78, 78);
+    font-style: italic;
+    font-size: 17px;
+}
+
+#uno, #dos{
+    float: left;
+    width: 40%;
+}
+
+
+
+.section-2{
+    background-color: rgba(170, 158, 142, 0.097);
+    margin: auto;
+    height: 410px;
+    padding: 50px;
+    margin-bottom: 60px;
+}
+
+.section-2 li{
+    list-style: url(../Images/Checkbox-Icon.png);
+    padding-bottom: 50px;
+    font-size: 18px;
+    color: rgb(95, 95, 95);
+}
+
+.list-1, .list-2{
+    padding-top: 50px;
+}
+
+.list-1, .mid-image, .list-2{
+    float: left;
+    width: 30%;
+    height:400px;
+    margin: 20px;
+}
+
+
+
+.section-3{
+    height: 350px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.box{
+    font-family: 'Commissioner';
+    border: 0.5px solid rgba(128, 128, 128, 0.295);
+    padding: 10px;
+    float: left;
+    width: 20%;
+    height: 350px;
+    margin-left: 1%;
+}
+
+#big-box{
+    color: white;
+    background-color: #788087;
+    width: 380px;
+    border-radius: 5px;
+}
+
+.section-3 .title{
+    font-family: 'Poppins';
+    font-size: 35px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+.section-3 p{
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: left;
+    font-size: 17px;
+    font-weight: 200;
+}
+
+.section-3 h4{
+    font-family: 'Poppins';
+    font-size: 20px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+.section-3 img{
+    background-color: rgba(255, 0, 0, 0.181);
+    border-radius: 99px;
+    padding: 12px;
+}
+
+.section-3 button{
+    margin-top: 30px;
+    width: 150px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background-color: #93999F;
+}
+
+.section-3 button:hover{
+    color: red;
+    background-color: white;
+    transition-duration: 1s;
+}
+
+
+
+.section-4{
+    margin-bottom: 30px;
+    font-family: 'Poppins';
+    height: 370px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.section-4 .subtitle{
+    color: #788087a4;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: -10px;
+}
+
+.section-4 .title{
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.807);
+    font-weight: 500;
+}
+
+.section-4 .box2{
+    float: left;
+    width: 47%;
+    height: 160px;
+    margin-top: 40px;
+    padding: 10px;
+    border: 1px solid rgba(169, 169, 169, 0.286);
+}
+
+.section-4 #box1o2{
+    margin-right: 20px;
+}
+
+.section-4 .red-box{
+    font-size: 15px;
+    background-color: red;
+    width: fit-content;
+    padding: 5px;
+    color: white;
+    font-weight: 400;
+    box-shadow: 2px 0px 4px rgba(128, 128, 128, 0.495);
+    margin-bottom: 10px;
+}
+
+.section-4 .small-title{
+    color: rgba(0, 0, 0, 0.807);
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.section-4 p{
+    color: #788087a4;
+}
+
+
+
+footer{
+    background-color: rgba(237, 197, 197, 0.115);
+}
+
+#contact{
+    font-family: 'Poppins';
+    height: 500px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+.col-1, .col-2{
+    margin-right: 50px;
+}
+
+.col-1, .col-2, .col-3{
+    margin-top: 100px;
+    float: left;
+    width: 30%;
+}
+
+.col-3{
+    width: 32%;
+}
+
+#contact .title{
+    margin-bottom: 20px;
+    color: #5d5d5d;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+#contact p{
+    font-size: 13px;
+}
+
+#contact a{
+    color: red;
+}
+
+.sole{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.rights{
+    float: left;
+}
+
+.sole{
+    margin-top: 30px;
+    height: 60px;
+    padding-bottom: 50px;
+}
+
+.sole li{
+    display: inline;
+    list-style: none;
+    float: right;
+    padding-right: 20px;
+}
+
+.sole span{
+    color: red;
+}
+
+.sole img{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 999px;
+    background-color: red;
+}
