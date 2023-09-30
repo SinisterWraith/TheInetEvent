@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button{
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 90px;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav button:hover{
+    background-color: white;
+    border: 1px solid red;
+    color: red;
+    transition-duration: 0.6s;
+}
+
+/* Start of header */
+header{
+    background-image: linear-gradient(215deg, rgba(255, 255, 255, 0.8), white);
+    padding-bottom: 1%;
+    position: fixed;
+    width: 100vw;
+    box-shadow: 2px 0px 10px rgba(128, 128, 128, 0.279);
+    z-index: 10;
+    height: 8%;
+}
+
+
+.logo{
+    position: relative;
+    left: 100px;
+    width: 80px;
+    height: 40px;
+    float: left;
+}
+
+nav{
+    text-align: right;
+    font-size: 20px; 
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+#home{
+    color: red;
+}
+
+
+nav li{
+    padding: 8px;
+    color: rgb(81, 81, 81);
+    list-style: none;
+    display: inline;
+}
+
+.banner{
+    margin-top: 5%;
+    width: 99vw;
+    margin-bottom: 50px;
+}
+/* End of header */
+
+
+/* Start of Footer */
+footer{
+    background-color: rgba(237, 197, 197, 0.115);
+}
+
+#contact{
+    font-family: 'Poppins';
+    height: 500px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.col-1, .col-2{
+    margin-right: 50px;
+}
+
+.col-1, .col-2, .col-3{
+    margin-top: 100px;
+    float: left;
+    width: 30%;
+}
+
+.col-3{
+    width: 32%;
+}
+
+#contact .title{
+    margin-bottom: 20px;
+    color: #5d5d5d;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+#contact p{
+    font-size: 13px;
+}
+
+#contact a{
+    color: red;
+}
+
+.sole{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.rights{
+    float: left;
+}
+
+.sole{
+    margin-top: 30px;
+    height: 60px;
+    padding-bottom: 50px;
+}
+
+.sole li{
+    display: inline;
+    list-style: none;
+    float: right;
+    padding-right: 20px;
+}
+
+.sole span{
+    color: red;
+}
+
+.sole img{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 999px;
+    background-color: red;
+}
+
+.sole img:hover{
+    background-color: rgb(255, 196, 0);
+    transition-duration: 0.4s;
+}
+/* End of Footer */
+
+/* Start of the Optimization Phase */
+@media screen and (max-width: 900px){
+/* Start of header */
+    .logo{
+        left: 20px;
+    }
+    
+    nav{
+        text-align: right;
+        font-size: 15px; 
+        margin-right: 15px;
+    }
+    
+    nav li{
+        padding: 4px;
+    }
+
+    button{
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .banner{
+        margin-top: 9%;
+        width: 98vw;
+        margin-bottom: -10px;
+    }
+/* End of Header */
+
+/* Start of Footer */
+    .col-1, .col-2, .col-3{
+        margin-top: 40px;
+        float: left;
+        width: 500px;
+    }
+
+    .rights{
+        margin-bottom: 30px;
+    }
+
+    .col-3{
+        margin-bottom: 30px;
+    }
+
+    .sole li{
+        padding-right: 10px;
+    }
+
+    footer{
+        background-color: rgba(255, 255, 255, 0);
+    }
+    
+/* End of Footer */
+}
