@@ -55,6 +55,19 @@ nav{
 }
 
 
+header a{
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 0, 0, 0);
+    text-underline-offset: 0px;
+}
+
+header a:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
+    transition-duration: 0.7s;
+    text-underline-offset: 5px;
+}
+
 nav li{
     padding: 8px;
     color: rgb(81, 81, 81);
