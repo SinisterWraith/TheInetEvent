@@ -23,7 +23,6 @@ nav button:hover{
     transition-duration: 0.6s;
 }
 
-
 /* Start of header */
 header{
     background-image: linear-gradient(215deg, rgba(255, 255, 255, 0.8), white);
@@ -34,6 +33,7 @@ header{
     z-index: 10;
     height: 8%;
 }
+
 
 .logo{
     position: relative;
@@ -54,6 +54,7 @@ nav{
     color: red;
 }
 
+
 header a{
     text-decoration: underline;
     text-decoration-color: rgba(255, 0, 0, 0);
@@ -73,18 +74,13 @@ nav li{
     list-style: none;
     display: inline;
 }
-
-.banner{
-    margin-top: 5%;
-    width: 99vw;
-    margin-bottom: 50px;
-}
 /* End of header */
 
-/* Start of Products */
-.products{
+
+/* Start of About Us */
+.about{
     background-color: #787B7D;
-    height: 100px;
+    height: 280px;
     padding-top: 20px;
     text-align: center;
     position: relative;
@@ -92,132 +88,107 @@ nav li{
     color: white;
 }
 
-.products h1{
+.about h1{
     font-size: 40px;
     font-weight: 100;
 }
 
-.products p{
+.about p{
     width: 1300px;
-    text-align: center;
+    text-align: left;
+    margin: auto;
+    padding-top: 20px;
+}
+/* End of About Us */
+
+/* Start of Section-2 */
+
+.Section-2{
+    margin: auto;
+    margin-top: 150px;
+    height: 500px;
+    width: 90vw;
+    margin-bottom: 50px;
+}
+
+.left{
+    width: 44%;
+    float: left;
+    margin-right: 50px;
+    padding: 20px;
+}
+
+.right{
+    padding-top: 20px;
+    margin-right: -43px;
+    height: 300px;
+}
+
+.subtitle{
+    color: rgb(175, 174, 174);
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.main-title{
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.mini-title{
+    color: rgb(99, 99, 99);
+    font-size: 38px;
+    font-weight: 100;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+.Section-2 p{
+    font-size: 17px;
+    color: #686868;
+}
+
+.picture{
+    width: 48%;
+}
+/* End of Section-2 */
+
+
+/* Start of Section-3 */
+.Section-3{
+    width: 90vw;
     margin: auto;
 }
-/* End of Products */
 
-
-
-/* Start of Product Boxes */
-.container{
-    text-align: center;
-    display: flex;
-    margin: auto;
-    margin-top: 80px;
-    overflow-x: auto;
-    padding: 50px;
-    flex-flow: wrap;
+.heading{
+    padding: 20px;
 }
 
 .box{
-    width: 400px;
-    height: 400px;
-    margin: 10px auto 60px auto;
-    border-radius: 5px;
-    border: 1px solid rgba(128, 128, 128, 0.327);
+    margin : 20px;
+    padding : 50px;
+    border: 1px solid rgba(128, 128, 128, 0.233);
+    width: 85.7%;
+    margin-left: 97.7px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-.inner-box{
-    height: 70px;
-    background-color: red;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-}
-
-.box h1{
+.box .main-title{
     font-size: 20px;
-    padding-top: 25px;
-    color: white;
-    font-weight:300;
-}
-
-.content{
-    margin-top: 20px;
-}
-
-.content p{
-    margin-bottom: 20px;
-    margin-top: 10px;
+    font-weight: bold;
 }
 
 .box .subtitle{
-    font-family: 'Poppins';
-    color: red;
-    font-size: 23px;
-    font-weight: 300;
+    margin-bottom: 20px;
 }
 
-#box-6 b{
-    color: red;
+.box q{
+    font-style: italic;
+    font-size: 17px;
 }
-/* End of Products Boxes*/
+/* End of Section-3 */
 
-/* Start of Router Section */
-.title{
-    padding-left: 90px;
-    color: red;
-    font-weight: 100;
-    font-size: 40px;
-}
-
-.router{
-    display: flex;
-    padding: 40px;
-    margin: auto;
-    overflow-x: auto;
-    flex-flow: wrap;
-}
-
-.big-pic{
-    width: 750px;
-    margin-right: 30px;
-}
-
-#center-piece{
-    margin-right: 50px;
-}
-
-.small-pic{
-    width: 280px;
-    height: 500px;
-}
-
-/* Price boxes (unoptimized) */
-.price{
-    margin-left: 100px;
-    width: 650px;
-    margin-top: 20px;
-    height: 20px;
-    background-color: #F6F7F6;
-    line-height: 0px;
-    padding-top: 20px;
-}
-
-#right-price{
-    margin-left: 30px;
-    width: 613px;
-}
-
-.price p{
-    color: grey;
-    padding-left: 20px;
-}
-
-.price .amount{
-    color: black;
-    text-align: right;
-    margin-right: 20px;
-    font-weight: bold;
-}
-/* End of Price boxes */
 
 /* Start of Footer */
 footer{
@@ -299,6 +270,9 @@ footer{
     transition-duration: 0.4s;
 }
 /* End of Footer */
+
+
+
 
 /* Start of the Optimization Phase */
 @media screen and (max-width: 900px){
